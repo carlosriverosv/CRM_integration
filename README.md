@@ -28,18 +28,18 @@ There are some improvements that could be done
  - Include some error handling in case of an invalid response
  
 
-##Running the project  ⚙️
+## Running the project  ⚙️
 
-_The project have to dowload an run with the next commands_
 `$ python main.py <person identifications>`
 
 Ex:
 
-`$ python main.py 123 456 789 `
+`$ python main.py 123 456 789`
 
 After that you will see a response like this in the console
 
-`started at 02:07:09
+```
+started at 02:07:09
 --------------------------------------------------
 person id: 1, qualification result: 3
 --------------------------------------------------
@@ -49,11 +49,12 @@ person id: 2, qualification result: 9
 --------------------------------------------------
 person id: 3, qualification result: 42
 --------------------------------------------------
-finished at 02:07:18`
+finished at 02:07:18
+```
 
 
-##Running the tests  ⚙️
+## Running the tests  ⚙️
 
-_The project have to dowload an run with the next commands_
+To execute the tests run
 `$ python -m unittest  discover -v`
 
