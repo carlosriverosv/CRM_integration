@@ -1,6 +1,6 @@
 # CRM Integration
 
-_This project takes the principles of parallism   with python_
+
 
 ## Problem 📋
 
