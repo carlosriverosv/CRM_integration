@@ -1,5 +1,5 @@
 import unittest
-from internal_prospect_qual import internal_qualification
+from internal_process.internal_prospect_qual import internal_qualification
 
 class InternalProspectTest(unittest.TestCase):
 
